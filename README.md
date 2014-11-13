@@ -1,0 +1,38 @@
+TugasProcedureMenghitungLuas
+============================
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package id.blits.menghitungluas;
+
+/**
+ *
+ * @author Hp
+ */
+public class MainMenu {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+       System.out.println("<<<===>>> MENGHITUNG LUAS <<<===>>>"+"\n");
+        PersegiPanjang evi = new PersegiPanjang();
+        evi.panjang=15;
+        evi.lebar=10;
+        evi.tampilPersegiPanjang();
+        
+        Lingkaran wulandari= new Lingkaran();
+        wulandari.jarijari= 2 ;
+        wulandari.tampilLingkaran();
+        
+        Segitiga eviw = new Segitiga();
+        eviw.tinggi=10;
+        eviw.tampilSegitiga();
+    
+    }
+    
+}
